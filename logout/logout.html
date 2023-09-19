@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./csslogout/all.minn.css">
+       <link rel="stylesheet" href="./csslogout/bootstrap.minn.css">
+       <link rel="stylesheet" href="./csslogout/logout.css">
+    </head>
+    <body>
+
+<main class="container  mx-auto text-center w-75 my-5 ">
+<h1 class="text-info mb-4">Smart Login System</h1>
+<section >
+    <table for="signName"></table>
+    <input class="form-control mb-4"  type="text"  id="signName" required placeholder="Enter your name">
+</section>
+<section >
+    <table for="signEmail"></table>
+    <input class="form-control mb-4"  type="text"  id="signEmail" required placeholder="Enter your email">
+</section>
+<section >
+    <table for="signPassword"></table>
+    <input class="form-control mb-4"  type="password"  id="signPassword"  required placeholder="Enter your password">  
+</section>
+<div id="alertMessage" class="text-center d-none"  ></div>
+
+ <button  class="btn btn-outline-info  w-100" onclick="add()" > <a class= "text-decoration-none" href="../login/login.html"> Sign up</a></button> 
+<p class="text-white mt-3 mb-5"> Don't have an account?
+<a class="text-white text-decoration-none " href="../login/login.html">sign in</a>
+</p>
+
+</main>
+
+        <script src="./jslogout/bootstrap.bundle.min.js"></script>
+        <script src="./jslogout/logout.js"></script>
+    </body>
+</html>+
